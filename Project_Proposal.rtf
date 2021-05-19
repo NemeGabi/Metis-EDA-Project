@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid1\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid101\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid102\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww14680\viewh10900\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs28 \cf0 Project 1. - EDA Course Project
+\f1\b0 \
+\
+
+\fs36 \ul New York City subway usage during/before/after festive period
+\fs28 \ulnone \
+\
+The current project was created due to a query that was received from MTA to our process developer company to analyse the subway line usage in the festive period in New York City. The company\'92s interest was the changes in the usage of the most busy lines in December month. The information that is provided by us is going to help MTA to establish a more effective amended timeline for the festive period (or whole December) which would help to achieve better customer satisfactory level and the better allocated subway units could result savings for the company as well.\
+\
+The main source of the used data is the MTA\'92s website (http://web.mta.info/developers/turnstile.html). The files on the website shows the number of entries and exits of the subway stations representing the level of usage of the station.\
+The analyse includes November, December and January data from 2020. The average usage of the weeks give a good representation of the usage of the lines and it is the base of the comparison.\
+\
+Tools to use:\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	1.	}SQL database - ingesting the raw data for November, December, January 2020\
+{\listtext	2.	}Python - SQLAlchemy: \
+\pard\tx940\tx1440\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1440\fi-1440\pardirnatural\partightenfactor0
+\ls2\ilvl1\cf0 {\listtext	\uc0\u8259 	}GROUP BY  and WHERE/ HAVING command to identify the busiest lines\
+{\listtext	\uc0\u8259 	}CREATE TABLE  to set up a table only for the usage averages\
+{\listtext	\uc0\u8259 	}JOIN to timetables (in case suitable timetable available)\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\cf0    3.	Exploratory data analysis in pandas\
+   4.   Visualisation of data in matplotlib\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+}
