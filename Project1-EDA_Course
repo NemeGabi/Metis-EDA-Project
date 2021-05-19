@@ -1,0 +1,17 @@
+Project 1. - EDA Course Project
+
+New York City subway usage during/before/after festive period
+
+The current project was created due to a query that was received from MTA to our process developer company to analyse the subway line usage in the festive period in New York City. The company’s interest was the changes in the usage of the most busy lines in December month. The information that is provided by us is going to help MTA to establish a more effective amended timeline for the festive period (or whole December) which would help to achieve better customer satisfactory level and the better allocated subway units could result savings for the company as well.
+
+The main source of the used data is the MTA’s website (http://web.mta.info/developers/turnstile.html). The files on the website shows the number of entries and exits of the subway stations representing the level of usage of the station.
+The analyse includes November, December and January data from 2020. The average usage of the weeks give a good representation of the usage of the lines and it is the base of the comparison.
+
+Tools to use:
+	1.	SQL database - ingesting the raw data for November, December, January 2020
+	2.	Python - SQLAlchemy: 
+	⁃	GROUP BY  and WHERE/ HAVING command to identify the busiest lines
+	⁃	CREATE TABLE  to set up a table only for the usage averages
+	⁃	JOIN to timetables (in case suitable timetable available)
+   3.	Exploratory data analysis in pandas
+   4.   Visualisation of data in matplotlib
