@@ -1,0 +1,22 @@
+Project 1. - EDA Course Project
+
+The project proposal changed due to original analysis was not doable. 
+
+Charity asked help for the most popular subway stations to raise fundations during Nov - Jan. 
+
+We are searching for the busiest stations in the queried period to help company raise the most money for the ones in need.
+
+After cleaning the data the top 15 busiest station was defined, please see on the below chart.
+
+
+![Traffic plot](https://github.com/NemeGabi/Metis-EDA-Project/blob/master/Total_traffic.png)
+
+![Traffic plot2](https://github.com/NemeGabi/Metis-EDA-Project/blob/master/Traffic_Jan.png)
+
+![Traffic plot3](https://github.com/NemeGabi/Metis-EDA-Project/blob/master/Traffic_Nov.png)
+
+![Traffic plot3](https://github.com/NemeGabi/Metis-EDA-Project/blob/master/Traffic_Dec.png)
+
+
+Further investigation will detail which of the three months period are the best for fund raising.
+
