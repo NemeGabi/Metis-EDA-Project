@@ -48,3 +48,9 @@ Tools
 Communication
 
 The results of the project represented on line and bar charts. 
+![Top_10_stations](https://raw.githubusercontent.com/NemeGabi/Metis-EDA-Project/master/Top_10_stations_data.png)
+
+![Top_5_stations](https://raw.githubusercontent.com/NemeGabi/Metis-EDA-Project/master/Top_5_weekly_traffic.png)
+
+![Top_5_stations_dayofweeks](https://raw.githubusercontent.com/NemeGabi/Metis-EDA-Project/master/Top_5_per_daysofweeks.png)
+
